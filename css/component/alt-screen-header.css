@@ -1,0 +1,30 @@
+.alt-header{
+    padding-top:35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10px;
+}
+.alt-header__coulumn{
+    font-size: 25px;
+    font-weight: 600;
+}
+.settings-list{
+    margin-left:10px;
+}
+.settings-setting{
+    padding:20px 0px;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    font-size:20px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.settings-setting i{
+    margin-right:20px;
+    font-size:18px;
+    
+}
+.settings__setting-column:last-child{
+    opacity:0.7;
+}
