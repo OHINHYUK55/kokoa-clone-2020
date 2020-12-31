@@ -2,12 +2,29 @@
     padding-top:35px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     padding-left: 10px;
+
 }
 .alt-header__coulumn{
     font-size: 25px;
     font-weight: 600;
+    width: 33%;
+   
+}
+.alt-header__coulumn:first-child{
+    margin-right: auto;
+}
+.alt-header__coulumn:nth-child(2){
+    text-align: center;
+
+}
+.alt-header__coulumn:last-child{
+    margin-left: auto;
+    display: flex;
+    justify-content: flex-end;
+    
+
 }
 .settings-list{
     margin-left:10px;

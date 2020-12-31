@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
-@import "component/reset.css";
-@import "component/variable.css";
+@import "reset.css";
+@import "variable.css";
 /* component*/
 @import "component/status-bar.css";
 @import "component/badges.css";
