@@ -1,10 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
-@import "reset.css";
-@import "component/status-bar.css";
-@import "variable.css";
-body {
-    font-family: 'Open Sans', sans-serif;
-}
+
+
 .welcome-header{
     margin:80px 0px;
     margin-bottom:0px;
@@ -48,7 +43,7 @@ body {
     outline:none;
 }
 #login-form input[type="submit"]{
-    background-color:var(--yellow);
+    background-color: var(--yellow);
     cursor: pointer;
     padding:20px 0px
 }
