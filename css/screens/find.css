@@ -97,3 +97,16 @@
 .open-post__hearth-count span{
     margin-left:3px;
 }
+@keyframes heartBeat {
+    0%{
+        color: white;
+    }50%{
+        color: tomato;
+        transform: scale(1.5);
+    }100%{
+        color: white;
+    }
+}
+.open-chat__heart-count:hover i{
+    animation: heartBeat 1s linear infinite;
+}
